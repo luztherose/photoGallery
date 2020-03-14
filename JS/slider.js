@@ -1,12 +1,11 @@
 var images = [
+    "images/luz1.jpg",
     "images/luz2.jpg",
     "images/pic7.jpg",
     "images/luz3.jpg",
     "images/pic8.jpg",
     "images/luz4.jpg",
-
     "images/luz6.jpg",
-    "images/pic6.jpg",
     "images/luz5.jpg",
     "images/head.jpg",
     "images/head1.jpg",
