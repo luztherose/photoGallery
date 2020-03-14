@@ -1,0 +1,29 @@
+body{
+    background-color: salmon;
+}
+h1 {
+    font-family: cursive;
+    font-size: 60px;
+    text-align: center;
+    box-shadow: 10px 10px 10px 0 grey;
+    text-shadow: 2px 2px 0 #FFFFFF,5px 4px 0 rgba(0,0,0,.15);
+}
+#slider {
+    display: flex;
+    margin-top: 40px;
+    justify-content: center;
+}
+#slider button {
+    font-size: 60px;
+    color: grey;
+    padding: 10px 30;
+}
+#slider img {
+    display: inline-block;
+    width: 540px;
+    height: 500px;
+    
+}
+button:hover {
+    background: linear-gradient(to left, tomato, #333 40%, #eee 85%, tomato 65%);
+}
