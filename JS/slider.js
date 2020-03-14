@@ -1,7 +1,5 @@
 var images = [
-    "images/luz1.jpg",
-    "images/luz2.jpg",
-    "images/pic7.jpg",
+    "images/luz11.jpg",
     "images/luz3.jpg",
     "images/pic8.jpg",
     "images/luz4.jpg",
@@ -9,7 +7,7 @@ var images = [
     "images/luz5.jpg",
     "images/head.jpg",
     "images/head1.jpg",
-    "images/pic2.jpg",
+    "images/pic9.jpg",
     "images/pic1.jpg",
     "images/fluz1.jpg",
     "images/pic3.jpg",
