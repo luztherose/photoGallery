@@ -20,10 +20,60 @@ h1 {
 }
 #slider img {
     display: inline-block;
-    width: 540px;
-    height: 500px;
+    width: 70%;
+    height: 30%;
+    /* width: 540px;
+    height: 500px; */
     
 }
 button:hover {
     background: linear-gradient(to left, tomato, #333 40%, #eee 85%, tomato 65%);
+}
+
+/* //////////////////////////////////////////////////////////////////// */
+@media only screen and (max-width:480px) {
+    #slider {
+        margin-top: 80px;
+        
+    }
+    body {
+        background-color: rgb(252, 164, 164);
+    }
+    #slider img {
+        /* width: 300px; */
+        width: 85%;
+        height: 50%;
+        
+    }
+    h1 {
+        font-size: 40px;
+        text-shadow: 4px 2px 0 #FFFFFF,5px 4px 0 rgba(0,0,0,.15);
+        box-shadow: 15px 25px 10px 0 grey;
+    }
+    #slider button {
+        font-size: 33px;
+        color: rgb(83, 83, 83);
+        background-color:whitesmoke;
+        padding: 5px;
+        border: none;
+    }
+}
+@media only screen and (min-width:481px) and (max-width:605px) {
+    h1 {
+        font-size: 50px;
+        text-shadow: 4px 2px 0 #FFFFFF,5px 4px 0 rgba(0,0,0,.15);
+        box-shadow: 15px 25px 10px 0 grey;
+        margin-bottom: 80px;
+    }
+
+    #slider img {
+        width: 86%;
+        height: 420px;
+        
+    }
+    #slider button {
+        font-size: 40px;
+        padding: 5px;
+        border: none;
+    }
 }
