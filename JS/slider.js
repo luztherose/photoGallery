@@ -47,3 +47,10 @@ function next() {
     }
     
     document.onkeydown = checkKey;
+    ////////////////Adding Style with JS ///////////////////////
+    var colorButton = document.getElementById("btn");
+    colorButton .style.width = "150px"; 
+    colorButton .style.height = "50px";
+    colorButton .style.marginLeft = "43%";
+    colorButton .style.marginTop = "2%";
+    colorButton .style.fontSize = "1em";
